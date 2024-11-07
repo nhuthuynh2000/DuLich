@@ -121,16 +121,9 @@
                         });
                     </script>
                     <script>
-                        // Khi người dùng cuộn trang, thực thi hàm myFunction
                         window.onscroll = function () { myFunction() };
-
-                        // Lấy phần tử header (menu)
                         var header = document.getElementById("menu");
-
-                        // Lấy vị trí offset của navbar
                         var sticky = header.offsetTop;
-
-                        // Thêm lớp "sticky" vào header khi bạn đến vị trí cuộn của nó. Loại bỏ "sticky" khi bạn rời khỏi vị trí cuộn
                         function myFunction() {
                             if (window.pageYOffset > sticky) {
                                 header.classList.add("sticky"); // Thêm lớp sticky nếu cuộn qua vị trí
