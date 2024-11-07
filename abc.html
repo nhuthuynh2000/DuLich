@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="form-container" class="form-container" >
+        <div class="form-content">
+            <div class="form-image-container">
+                <img id="form-image" src="" alt="Hình ảnh" />
+            </div>
+            <div class="form-text-container">
+                <h2 id="form-title">Tiêu đề w</h2>
+                <p id="form-text">Nội ầ sẽ hiển thị ở đây.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    .form-container {
+        min-width: 70%;
+        /* Đặt chiều rộng tối đa cho form */
+        height: 70%;
+        /* Đặt chiều cao tối đa cho form */
+        overflow-y: auto;
+        /* Cho phép cuộn dọc */
+        background: white;
+        /* Màu nền cho form */
+        padding: 0;
+        /* Không có khoảng cách bên trong */
+        border-radius: 8px;
+        /* Bo góc cho form */
+        display: none;
+        /* Ẩn form ban đầu */
+        position: fixed;
+        /* Đặt vị trí cố định */
+        top: 50%;
+        /* Đưa form vào giữa màn hình */
+        left: 50%;
+        /* Đưa form vào giữa màn hình */
+        transform: translate(-50%, -50%);
+        /* Căn giữa */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Đổ bóng cho form */
+    
+    }
+</style>
+    
